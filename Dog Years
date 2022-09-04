@@ -1,0 +1,23 @@
+//This is my age.
+const myAge = 25;
+
+//Early years.
+let earlyYears = 2;
+
+earlyYears *= 10.5;
+
+//Subtract 2 from the first 2 years.
+let laterYears = myAge - 2;
+
+//Mult. by 4 to calculate the num of dog years accounted for by your later years.
+laterYears *= 4;
+
+console.log(earlyYears);
+
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears;
+
+let myName = "Ken" .toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
